@@ -25,6 +25,10 @@ This project implements a state-of-the-art anomaly detection system using the **
 - [Code Structure](#code-structure)
 - [License](#license)
 - [Contributing](#contributing)
+  
+ ## Introduction
+
+Anomaly detection is a critical task in many domains, including industrial inspection and security surveillance. This project leverages **Detectron2**, a cutting-edge object detection framework developed by Facebook AI Research (FAIR), to implement a highly effective anomaly detection system. By utilizing advanced neural network architectures and pre-trained models, we aim to achieve superior performance in identifying deviations from normal patterns in images.
 ## Functionality
 
 ### Flowchart
@@ -68,9 +72,7 @@ graph TD
 
 
 
-## Introduction
 
-Anomaly detection is a critical task in many domains, including industrial inspection and security surveillance. This project leverages **Detectron2**, a cutting-edge object detection framework developed by Facebook AI Research (FAIR), to implement a highly effective anomaly detection system. By utilizing advanced neural network architectures and pre-trained models, we aim to achieve superior performance in identifying deviations from normal patterns in images.
 
 ## Features
 - **Real-time Image Analysis**: Quickly analyze images for anomalies.
