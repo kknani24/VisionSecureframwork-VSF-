@@ -89,7 +89,7 @@ graph TD
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [https://github.com/kknani24/VisionSecureframwork(VSF)](https://github.com/kknani24/VisionSecureframwork-VSF-.git)
+git clone https://github.com/kknani24/VisionSecureframwork(VSF)
 cd anomaly-detection-detectron2
 ```
 
