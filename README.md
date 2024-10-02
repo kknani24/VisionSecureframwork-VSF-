@@ -15,6 +15,16 @@
 
 
 This project implements a state-of-the-art anomaly detection system using the **Detectron2** framework, a robust library for computer vision tasks. Designed for high-performance image analysis, this application detects anomalies, compresses images using deflate, and saves them, making it applicable in fields such as security, manufacturing, and quality control.
+## Table of Contents
+- [Introduction](#introduction)
+- [Functionality](#functionality)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Code Structure](#code-structure)
+- [License](#license)
+- [Contributing](#contributing)
 ## Functionality
 
 ### Flowchart
@@ -55,16 +65,7 @@ graph TD
 - **Classify Anomalies**: Analyzes the model's output to determine if anomalies are present.
 - **Compress Image**: Compresses the image if anomalies are detected and saves the result.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Code Structure](#code-structure)
-- [Functionality](#functionality)
-- [License](#license)
-- [Contributing](#contributing)
+
 
 
 ## Introduction
