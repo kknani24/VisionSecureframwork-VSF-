@@ -94,7 +94,7 @@ graph TD
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/kknani24/VisionSecureframwork(VSF)
-cd anomaly-detection-detectron2
+cd detectron_pipeline_notebook_with_image.ipynb
 ```
 
 ### Step 2: Install Required Packages
