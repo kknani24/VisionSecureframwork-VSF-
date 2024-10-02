@@ -12,6 +12,10 @@
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Detectron2](https://img.shields.io/badge/detectron2-%23F8E1A1.svg?style=for-the-badge&logo=detectron2&logoColor=black)
 ![Deflate](https://img.shields.io/badge/deflate-%23E7E7E7.svg?style=for-the-badge&logo=deflate&logoColor=black)
+![Machine Learning](https://img.shields.io/badge/machine%20learning-%2300BFFF.svg?style=for-the-badge&logo=machine-learning&logoColor=white) 
+![Deep Learning](https://img.shields.io/badge/deep%20learning-%2333CCFF.svg?style=for-the-badge&logo=deep-learning&logoColor=white) 
+![AI](https://img.shields.io/badge/ai-%2300A000.svg?style=for-the-badge&logo=ai&logoColor=white)
+
 
 
 This project implements a state-of-the-art anomaly detection system using the **Detectron2** framework, a robust library for computer vision tasks. Designed for high-performance image analysis, this application detects anomalies, compresses images using deflate, and saves them, making it applicable in fields such as security, manufacturing, and quality control.
