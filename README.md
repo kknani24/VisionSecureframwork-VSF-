@@ -14,7 +14,7 @@
 ![Deflate](https://img.shields.io/badge/deflate-%23E7E7E7.svg?style=for-the-badge&logo=deflate&logoColor=black)
 ![Machine Learning](https://img.shields.io/badge/machine%20learning-%2300BFFF.svg?style=for-the-badge&logo=machine-learning&logoColor=white) 
 ![Deep Learning](https://img.shields.io/badge/deep%20learning-%2333CCFF.svg?style=for-the-badge&logo=deep-learning&logoColor=white) 
-![AI](https://img.shields.io/badge/ai-%2300A000.svg?style=for-the-badge&logo=ai&logoColor=white)
+
 
 
 
