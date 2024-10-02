@@ -15,6 +15,45 @@
 
 
 This project implements a state-of-the-art anomaly detection system using the **Detectron2** framework, a robust library for computer vision tasks. Designed for high-performance image analysis, this application detects anomalies, compresses images using deflate, and saves them, making it applicable in fields such as security, manufacturing, and quality control.
+## Functionality
+
+### Flowchart
+The flow of the program is outlined in the following flowchart:
+
+```mermaid
+graph TD
+    A[Start] --> B[Install Detectron2]
+    B --> C[Setup Logger]
+    C --> D[Import Libraries]
+    D --> E[Define display_image Function]
+
+    E --> F[Load Image]
+    F --> G{Is Image Loaded?}
+    G -- Yes --> H[Display Image]
+    G -- No --> I[Print Error Message]
+    H --> J[Setup Detectron2 Configuration]
+    J --> K[Set Model Weights]
+    K --> L[Make Predictions]
+    L --> M[Print Predicted Classes and Boxes]
+    M --> N[Visualize Predictions]
+    N --> O[Classify Anomalies]
+    O --> P{Are Anomalies Detected?}
+    P -- Yes --> Q[Print Detected Anomalies]
+    P -- No --> R[Print No Anomalies Detected]
+    Q --> S[Compress Image]
+    S --> T[Save Compressed Image]
+    R --> U[End]
+    I --> U
+    T --> U
+```
+
+### Key Functions
+- **display_image()**: Function to load and display images.
+- **Load Image**: Loads the specified image for analysis.
+- **Setup Configuration**: Configures the Detectron2 model for predictions.
+- **Make Predictions**: Runs the model on the loaded image to detect anomalies.
+- **Classify Anomalies**: Analyzes the model's output to determine if anomalies are present.
+- **Compress Image**: Compresses the image if anomalies are detected and saves the result.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -127,45 +166,6 @@ AI involves the simulation of human intelligence in machines, allowing them to p
 - `requirements.txt`: List of required Python packages for the project.
 - `README.md`: Documentation for the project.
 
-## Functionality
-
-### Flowchart
-The flow of the program is outlined in the following flowchart:
-
-```mermaid
-graph TD
-    A[Start] --> B[Install Detectron2]
-    B --> C[Setup Logger]
-    C --> D[Import Libraries]
-    D --> E[Define display_image Function]
-
-    E --> F[Load Image]
-    F --> G{Is Image Loaded?}
-    G -- Yes --> H[Display Image]
-    G -- No --> I[Print Error Message]
-    H --> J[Setup Detectron2 Configuration]
-    J --> K[Set Model Weights]
-    K --> L[Make Predictions]
-    L --> M[Print Predicted Classes and Boxes]
-    M --> N[Visualize Predictions]
-    N --> O[Classify Anomalies]
-    O --> P{Are Anomalies Detected?}
-    P -- Yes --> Q[Print Detected Anomalies]
-    P -- No --> R[Print No Anomalies Detected]
-    Q --> S[Compress Image]
-    S --> T[Save Compressed Image]
-    R --> U[End]
-    I --> U
-    T --> U
-```
-
-### Key Functions
-- **display_image()**: Function to load and display images.
-- **Load Image**: Loads the specified image for analysis.
-- **Setup Configuration**: Configures the Detectron2 model for predictions.
-- **Make Predictions**: Runs the model on the loaded image to detect anomalies.
-- **Classify Anomalies**: Analyzes the model's output to determine if anomalies are present.
-- **Compress Image**: Compresses the image if anomalies are detected and saves the result.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
